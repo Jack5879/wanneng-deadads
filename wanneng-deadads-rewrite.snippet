@@ -1,0 +1,10 @@
+; wanneng-deadads-rewrite.snippet — 万能钥匙 去广告 (温和模式: wkanx 接口返回空)
+; 用法: [rewrite_remote] 引用本文件; 需启用 MITM。
+; 说明: 与 wanneng-deadads.filter 里的 wkanx 规则效果二选一 (同时存在时连接拦截优先)。
+; 依据: deadads 静态分析 (adx-ad-prod.wkanx.com / t1 / di / a1 为 FSMix 聚合配置下发)
+hostname = %APPEND% adx-ad-prod.wkanx.com, adx.ad.pre.wkanx.com, t1.wkanx.com, di.wkanx.com, a1.wkanx.com
+^https?://adx-ad-prod\.wkanx\.com/ url reject-200
+^https?://adx\.ad\.pre\.wkanx\.com/ url reject-200
+^https?://t1\.wkanx\.com/ url reject-200
+^https?://di\.wkanx\.com/ url reject-200
+^https?://a1\.wkanx\.com/ url reject-200
