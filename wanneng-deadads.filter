@@ -1,3 +1,4 @@
+host-suffix, adintl.cn, reject
 host-suffix, wkanx.com, reject
 host-suffix, snssdk.com, reject
 host-suffix, toutiao.com, reject
@@ -18,3 +19,5 @@ host-suffix, cpu-openapi.baidu.com, reject
 host-suffix, cpu.baidu.com, reject
 host-suffix, pos.baidu.com, reject
 host-suffix, union.baidu.com, reject
+host-suffix, ada.baidu.com, reject
+host-suffix, aden.baidu.com, reject
