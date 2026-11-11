@@ -21,3 +21,20 @@ host-suffix, pos.baidu.com, reject
 host-suffix, union.baidu.com, reject
 host-suffix, ada.baidu.com, reject
 host-suffix, aden.baidu.com, reject
+host-suffix, adkwai.com, reject
+host-suffix, tanx.com, reject
+host-suffix, volces.com, reject
+host-suffix, ctobsnssdk.com, reject
+host, webcast-open.douyin.com, reject
+host-suffix, e.kuaishou.com, reject
+host-suffix, e.kuaishou.cn, reject
+host-suffix, gifshow.com, reject
+host-suffix, zhangyuyidong.cn, reject
+host, mobads-pre-config.cdn.bcebos.com, reject
+host, bgg.baidu.com, reject
+; --- 可选加强 (影响抖音/快手系 App, 按需开启) ---
+; host-suffix, douyinpic.com, reject
+; host-suffix, bytescm.com, reject
+; host-suffix, volccdn.com, reject
+; host-suffix, kuaishou.com, reject
+; host-suffix, kwai.com, reject
