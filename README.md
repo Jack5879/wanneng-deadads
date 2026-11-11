@@ -44,4 +44,4 @@ https://cdn.jsdelivr.net/gh/<用户>/<仓库>@main/wanneng-deadads.filter
 ## 依据
 
 域名清单来自对 IPA 的静态分析（Mach-O / ObjC 元数据 / 字符串扫描）：
-`adx-ad-prod.wkanx.com/config/strategy/v2`、`mon.snssdk.com`、`mazu.m.qq.com`、`api.kuaishouzt.com`、`mobads.baidu.com` 等。
+`adx-ad-prod.wkanx.com/config/strategy/v2`、`mon.snssdk.com`、`mazu.m.qq.com`、`api.kuaishouzt.com`、`mobads.baidu.com`、`sdkcfg.adintl.cn`、`ada.baidu.com` 等。
